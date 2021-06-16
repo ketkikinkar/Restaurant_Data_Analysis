@@ -17,3 +17,43 @@ The main objectives of the application are:
 - To check online delivery systems of different restaurants.
 - Location of the restaurant is an important factor to be considered when building a restaurant recommendation system. Location will be used to filter the restaurants from a top list.
  
+### Tools used:
+
+#### Python: 
+We have used python for the main code in which we have used pandas numpy and matplotlib and have imported yelp.csv to show various kinds of visualizations which will be shown below.
+
+#### MongoDB: 
+MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+We have used mongodb to do the mapreduce part of the code. Map-reduce is a data processing paradigm for condensing large volumes of data into useful aggregated results. To perform map-reduce operations, MongoDB provides the mapReduce database command.
+
+#### Powerbi: 
+Power BI is a business analytics service by Microsoft. It aims to provide interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards. It is part of the Microsoft Power Platform. 
+In Power Bi we have imported a csv file “restaurant.csv” using the data in it we have made various visualizations which will help users to choose the restaurants and have a happy meal. 
+
+### Dataset Description
+Fetching the data:
+Data has been collected from the Kaggle in the form of .json files(raw data) using the url=https://www.kaggle.com/shrutimehta/zomato-restaurants-data?select=file5.json
+ 
+### Data Storage:
+The collected data has been stored in the Comma Separated Value file Yelp.csv. Each restaurant in the dataset is uniquely identified by its Restaurant Id. Every Restaurant contains the following variables:
+• Restaurant Id: Unique id of every restaurant across various cities of the world
+• Restaurant Name: Name of the restaurant
+• Country Code: Country in which restaurant is located
+• City: City in which restaurant is located
+• Address: Address of the restaurant
+• Locality: Location in the city
+• Locality Verbose: Detailed description of the locality
+• Longitude: Longitude coordinate of the restaurant's location
+• Latitude: Latitude coordinate of the restaurant's location
+• Cuisines: Cuisines offered by the restaurant
+• Average Cost for two: Cost for two people in different currencies 
+• Currency: Currency of the country
+• Has Table booking: yes/no
+• Has Online delivery: yes/ no
+• Is delivering: yes/ no
+• Switch to order menu: yes/no
+• Price range: range of price of food
+• Aggregate Rating: Average rating out of 5
+• Rating color: depending upon the average rating color
+• Rating text: text on the basis of rating of rating
+• Votes: Number of ratings casted by people
